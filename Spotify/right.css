@@ -1,0 +1,257 @@
+/* Right Part */
+
+
+#right {
+    width: 77vw;
+    overflow-y: scroll;
+    border-radius: 18px;
+    height: 96.5vh;
+    margin-top: 5px;
+    /* border: 2px solid white; */
+}
+
+
+
+#first {
+    /* height: 80px; */
+    background-color: rgb(9 9 9);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 0px;
+    padding: 13px 22px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+
+
+
+}
+
+
+.k {
+    background-color: black;
+    border: none;
+    border-radius: 75px;
+    padding: 7px;
+    margin: 4px;
+    width: 32px;
+}
+
+#d {
+    margin: 10px;
+    /* border: 2px solid white;  */
+    padding: 4px;
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    color: #a7a7a7;
+}
+
+#d:hover {
+    /* font-size:17px; */
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+
+.new {
+    border: none;
+    background-color: white;
+    padding: 14px 30px;
+    font-size: 17px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+}
+
+.new:hover {
+    font-size: 17px;
+
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+#second {
+
+    background-color: #121212;
+    /* overflow-y: scroll; */
+
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    /* border: 0.5px solid white;  */
+    padding: 10px 15px;
+
+
+}
+
+.topleft {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.topright {
+    margin-top: 10px;
+    color: #a7a7a7;
+}
+
+.mid {
+    height: 320px;
+    /* border:0.5px solid white; */
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+
+}
+
+.card {
+    height: 285px;
+    width: 200px;
+    /* border:0.5px solid white; */
+    margin: 12px;
+    padding: 12px;
+    background-color: #242424;
+    border-radius: 15px;
+}
+.card:hover{
+    cursor:pointer;
+    background-color: #616060;   
+    
+}
+
+.mid2 {
+    display: flex;
+    /* border:0.5px solid white; */
+
+
+}
+
+#bay {
+    /* border:0.5px solid white; */
+    display: flex;
+
+}
+
+.r {
+    margin: 44px;
+    /* border:0.5px solid white; */
+}
+
+.head {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    margin: 8px;
+    justify-content: left;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    align-items: left;
+    color: #a7a7a7;
+}
+
+.text:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.line2 {
+    background-color: #a7a7a7;
+    height: 1px;
+    width: 70vw;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.box {
+    height: 190px;
+    width: 180px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #2d2c2c;
+    background-image: none;
+    
+
+}
+
+.bhead {
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-left: 6px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+
+.bhead span {
+    width: 90px;
+    font-size: 17px;
+
+}
+
+.box2 {
+    width: 177px;
+    /* border:0.5px solid white; */
+    margin: 18px 0px 12px 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.box3 {
+    color: #a7a7a7;
+
+}
+
+
+.box>img {
+    height: 190px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.hov:hover{
+    cursor: pointer;
+}
+
+.focus{
+    height:25px;
+    width:25px;
+    background-color:green;
+    border-radius: 50%;
+    padding:9px 0px 0px 9px;
+    position:relative;
+    left: 135px;
+    opacity:0%;
+    /* bottom: 50px; */
+    /* animation:up 0.5s ease-in 3s 1; */
+    
+     
+    
+
+}
+
+@keyframes up{
+    0%{bottom:0px;
+        opacity:0%;}
+
+    25%{bottom:12.5px;
+        opacity:0%;}
+    50%{bottom:25px;
+        opacity:40%;}
+    75%{bottom:37.5px;
+        opacity:60%;}
+    95%{bottom:50px;
+        opacity:100%;}
+    100%{bottom:50px;
+        opacity:100%;}
+}
+
+
